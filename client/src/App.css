@@ -29,3 +29,26 @@
     padding-top: 30px;
   }
 
+.main-layout {
+  display: grid;
+  grid-template-rows: auto auto 20px;
+  grid-template-areas:
+  "header"
+  "body"
+  "footer"
+}
+
+.main-header {
+  grid-area: header;
+}
+
+.main-body {
+  grid-area: body;
+  min-height: 88vh;
+}
+
+.main-footer {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+}

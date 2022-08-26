@@ -1,0 +1,19 @@
+### User sing up endpoint
+POST http://localhost:5000/v1/user
+Content-Type: application/json
+
+{
+    "name" : "Giri",
+    "phone": "8121558776",
+    "company": "marketbird",
+    "email": "girimohan.gm@gmail.com",
+    "password": "girimohan"
+    }
+### User sing in endpoint
+POST http://localhost:5000/v1/user/login
+Content-Type: application/json 
+
+{
+    "email": "girimohan.gm@gmail.com",
+     "password": "giri"   
+}
